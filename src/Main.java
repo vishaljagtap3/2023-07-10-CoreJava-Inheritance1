@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        Base b1 = new Base();
-        b1.setB(99);
+        /*Base b1 = new Base();
+        b1.setB(99);*/
 
         Derived d1 = new Derived();
         d1.setB(100);
@@ -10,11 +10,12 @@ public class Main {
         System.out.println(d1.getB() + " " + d1.getD());
         d1.display();
         d1.displayD();
+        d1.display();
 
-        System.out.println();
+        /*System.out.println();
 
         b1.setB(300);
-        System.out.println(d1.getB() + " " + d1.getD());
+        System.out.println(d1.getB() + " " + d1.getD());*/
 
     }
 }
