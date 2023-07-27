@@ -1,0 +1,5 @@
+1. Everything from base class is inherited in derived class
+2. private of base class will be private of derived class***
+    public of base will be public of dervied
+    protected of base will be protected of derived
+    default of base will be default of derived
