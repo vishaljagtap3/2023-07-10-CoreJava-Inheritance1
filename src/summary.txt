@@ -3,3 +3,12 @@
     public of base will be public of dervied
     protected of base will be protected of derived
     default of base will be default of derived
+
+Constructors are always called from base to derived.
+
+You tell java which constructor of base class to be called,
+else java will use the base class default constructor.
+
+using super we can inform java about which constructor of base class to execute.
+if you are using super to trigger a different constructor of base class then super must be
+ths first statement in derived class constructor.
